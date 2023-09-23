@@ -7,10 +7,10 @@ import lombok.Setter;
 
 import java.util.Date;
 
-@Setter
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
+
 public class Student {
 
     public long admNo;
@@ -19,5 +19,6 @@ public class Student {
     public Date dateOfAdmission;
     public Date dateOfBirth;
     public String emergencyContact;
+
 
 }
